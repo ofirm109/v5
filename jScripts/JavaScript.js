@@ -119,8 +119,9 @@ function nextPage(num) {
         } else {
             var img = $('<img />', {
                 src: "images/" + thisgame[num - 1][3],
-                class: 'col-12 imageOnePage',
-                height: '100%'
+                class: ' imageOnePage',
+                height: '100%',
+                width: '100%'
             });
             img.appendTo($('#imagepage'));
             num++;
@@ -147,8 +148,9 @@ function Myquize(num) {
 
     var img = $('<img />', {
         src: "images/" + thisgame[num - 1][3],
-        class: 'col-12 imageTwoPage',
-        height: '100%'
+        class: ' imageTwoPage',
+        height: '100%',
+        width: '100%'
     });
     img.appendTo($('#imageQuiz'));
 
