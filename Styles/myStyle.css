@@ -1,0 +1,21 @@
+﻿body {
+}
+
+label {
+    direction: rtl;
+    display: block;
+    float: right;
+}
+
+#Q1 {
+    display: block;
+}
+
+#Q1 {
+    display: inline-block;
+}
+
+#Q2 {
+    display: inline-block;
+    float: left;
+}

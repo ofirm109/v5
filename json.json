@@ -1,0 +1,149 @@
+﻿{
+	"allApp": {
+		"games": {
+			"game": [
+				{
+					"page": [
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "image_name.png"
+							},
+							"_id": "1",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "image_name1.png"
+							},
+							"_id": "2",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "image_name2.png"
+							},
+							"myseala": [
+								{
+									"_linke": "4",
+									"_tayp": "text",
+									"__text": "לא לשלוח"
+								},
+								{
+									"_linke": "6",
+									"_tayp": "text",
+									"__text": "לשלוח"
+								}
+							],
+							"_id": "3",
+							"_quiz": "true"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "image_name3.png"
+							},
+							"_id": "4",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "image_name4.png"
+							},
+							"_id": "5",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "image_name5.png"
+							},
+							"_id": "6",
+							"_quiz": "false"
+						}
+					],
+					"_id": "1",
+					"_code": "101"
+				},
+				{
+					"page": [
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story1.png"
+							},
+							"_id": "1",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story2.png"
+							},
+							"_id": "2",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story3.png"
+							},
+							"_id": "3",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story4.png"
+							},
+							"_id": "4",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story5.png"
+							},
+							"_id": "5",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story6.png"
+							},
+							"myseala": [
+								{
+									"_linke": "7",
+									"_tayp": "text",
+									"__text": "לא לשלוח"
+								},
+								{
+									"_linke": "7",
+									"_tayp": "text",
+									"__text": "לשלוח"
+								}
+							],
+							"_id": "6",
+							"_quiz": "true"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story5.png"
+							},
+							"_id": "7",
+							"_quiz": "false"
+						}
+					],
+					"_id": "2",
+					"_code": "105"
+				}
+			],
+			"_gameNum": "2"
+		}
+	}
+}

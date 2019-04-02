@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<allApp>
+  <games gameNum="2">
+    <game id="1" code="101">
+      <page id="1" quiz="false" >
+        <tochen tape="img" >image_name.png</tochen>
+      </page>
+      <page id="2" quiz="false" >
+        <tochen tape="img" >image_name1.png</tochen>
+      </page>
+
+      <page id="3" quiz="true" >
+        <tochen tape="img" >image_name2.png</tochen>
+        <myseala linke="4" tayp="text">לא לשלוח</myseala>
+        <myseala linke="6" tayp="text">לשלוח</myseala>
+      </page>
+
+      <page id="4" quiz="false" >
+        <tochen tape="img" >image_name3.png</tochen>
+      </page>
+      <page id="5" quiz="false" >
+        <tochen tape="img" >image_name4.png</tochen>
+      </page>
+
+      <page id="6" quiz="false" >
+        <tochen tape="img" >image_name5.png</tochen>
+      </page>
+
+
+    </game>
+    <game id="2" code="105">
+
+      <page id="1" quiz="false" >
+        <tochen tape="img" >story1.png</tochen>
+      </page>
+      <page id="2" quiz="false" >
+        <tochen tape="img" >story2.png</tochen>
+      </page>
+      <page id="3" quiz="false" >
+        <tochen tape="img" >story3.png</tochen>
+      </page>
+      <page id="4" quiz="false" >
+        <tochen tape="img" >story4.png</tochen>
+      </page>
+      <page id="5" quiz="false" >
+        <tochen tape="img" >story5.png</tochen>
+      </page>
+
+      <page id="6" quiz="true" >
+        <tochen tape="img" >story6.png</tochen>
+        <myseala linke="7" tayp="text">לא לשלוח</myseala>
+        <myseala linke="7" tayp="text">לשלוח</myseala>
+      </page>
+      
+      <page id="7" quiz="false" >
+        <tochen tape="img" >story5.png</tochen>
+      </page>
+
+    </game>
+  </games>
+</allApp>
