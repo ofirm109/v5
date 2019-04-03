@@ -49,11 +49,21 @@
       <page id="6" quiz="true" >
         <tochen tape="img" >story6.png</tochen>
         <myseala linke="7" tayp="text">לא לשלוח</myseala>
-        <myseala linke="7" tayp="text">לשלוח</myseala>
+        <myseala linke="10" tayp="text">לשלוח</myseala>
       </page>
-      
+
       <page id="7" quiz="false" >
-        <tochen tape="img" >story5.png</tochen>
+        <tochen tape="img" >story7.png</tochen>
+      </page>
+      <page id="8" quiz="false" >
+        <tochen tape="img" >story8.png</tochen>
+      </page>
+      <page id="9" quiz="false" >
+        <tochen tape="img" >story9.png</tochen>
+      </page>
+
+      <page id="10" quiz="false" >
+        <tochen tape="img" >story10.png</tochen>
       </page>
 
     </game>

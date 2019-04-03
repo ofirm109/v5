@@ -122,7 +122,7 @@
 									"__text": "לא לשלוח"
 								},
 								{
-									"_linke": "7",
+									"_linke": "10",
 									"_tayp": "text",
 									"__text": "לשלוח"
 								}
@@ -133,9 +133,33 @@
 						{
 							"tochen": {
 								"_tape": "img",
-								"__text": "story5.png"
+								"__text": "story7.png"
 							},
 							"_id": "7",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story8.png"
+							},
+							"_id": "8",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story9.png"
+							},
+							"_id": "9",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story10.png"
+							},
+							"_id": "10",
 							"_quiz": "false"
 						}
 					],
