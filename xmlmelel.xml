@@ -4,26 +4,32 @@
     <game id="1" code="101">
       <page id="1" quiz="false" >
         <tochen tape="img" >image_name.png</tochen>
+        <discripsion> </discripsion>
       </page>
       <page id="2" quiz="false" >
         <tochen tape="img" >image_name1.png</tochen>
+        <discripsion> </discripsion>
       </page>
 
       <page id="3" quiz="true" >
         <tochen tape="img" >image_name2.png</tochen>
         <myseala linke="4" tayp="text">לא לשלוח</myseala>
         <myseala linke="6" tayp="text">לשלוח</myseala>
+        <discripsion> </discripsion>
       </page>
 
       <page id="4" quiz="false" >
         <tochen tape="img" >image_name3.png</tochen>
+        <discripsion> </discripsion>
       </page>
       <page id="5" quiz="false" >
         <tochen tape="img" >image_name4.png</tochen>
+        <discripsion> </discripsion>
       </page>
 
       <page id="6" quiz="false" >
         <tochen tape="img" >image_name5.png</tochen>
+        <discripsion> </discripsion>
       </page>
 
 
@@ -32,38 +38,56 @@
 
       <page id="1" quiz="false" >
         <tochen tape="img" >story1.png</tochen>
+        <discripsion>בבית של אורן, אורן מספר לבן ולזיו שהיחסים שלו ושל מאי מתחממים.</discripsion>
       </page>
       <page id="2" quiz="false" >
         <tochen tape="img" >story2.png</tochen>
+        <discripsion>זיו מציע לאורן לשלוח את התמונה שלו עם הקוביות בבטן.</discripsion>
       </page>
       <page id="3" quiz="false" >
         <tochen tape="img" >story3.png</tochen>
+        <discripsion>בן מציע לאורן לא לשלוח את התמונה.</discripsion>
       </page>
       <page id="4" quiz="false" >
         <tochen tape="img" >story4.png</tochen>
+        <discripsion>זיו מתעקש שאורן ישלח את התמונה כדי שמאי לא תחשוב שאורן חנון.</discripsion>
       </page>
       <page id="5" quiz="false" >
         <tochen tape="img" >story5.png</tochen>
+        <discripsion> </discripsion>
       </page>
 
       <page id="6" quiz="true" >
         <tochen tape="img" >story6.png</tochen>
         <myseala linke="7" tayp="text">לא לשלוח</myseala>
         <myseala linke="10" tayp="text">לשלוח</myseala>
+        <discripsion>אורן חושב אם כדי לו לשלוח את התמונה, הוא לא רוצה להיות חונון וגם הוא לא רוצה שהתמונה שלו תופץ ברשת.</discripsion>
       </page>
 
       <page id="7" quiz="false" >
         <tochen tape="img" >story7.png</tochen>
+        <discripsion>אורן החליט לא שלח את התמונה.</discripsion>
       </page>
       <page id="8" quiz="false" >
         <tochen tape="img" >story8.png</tochen>
+        <discripsion>עכשיו אורן ומאי חברים הכי טובים!</discripsion>
       </page>
       <page id="9" quiz="false" >
         <tochen tape="img" >story9.png</tochen>
+        <discripsion>..אבל מה היה קורה אם אורן היה מחליט לשלוח את התמונה</discripsion>
       </page>
 
       <page id="10" quiz="false" >
         <tochen tape="img" >story10.png</tochen>
+        <discripsion>בנתיים בבית של מאי</discripsion>
+      </page>
+      <page id="11" quiz="false" >
+        <tochen tape="img" >story11.png</tochen>
+        <discripsion>מאי קיבלה תמונה מאורן וחשבה לעצמה שהוא ממש חתיך!</discripsion>
+      </page>
+      <page id="12" quiz="false" >
+        <tochen tape="img" >story12.png</tochen>
+        <discripsion>מאי סיפרה לרונה וגילי שהיא מעוניינת לשלוח לאורן תמונה שלה.</discripsion>
       </page>
 
     </game>

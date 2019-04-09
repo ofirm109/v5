@@ -21,12 +21,18 @@
     <div id="container">
         <!--מסך פתיחה-->
         <div id="navOp">
+            <img id="myLogo" src="images/logo.png" />
             <button type="button" id="student" class="btn btn-primary btn-lg btn-block">כניסה לתלמיד</button>
             <button type="button" id="techer" class="btn btn-secondary btn-lg btn-block">כניסה למורה</button>
         </div>
         <!--הקוד-->
         <div id="myCode">
-            <label for="codeGame">קוד משחק</label>
+            
+
+            <label for="NameStudent" class="textwith">כתוב את שימך</label>
+            <input type="text" class="form-control" id="NameStudent" placeholder="כתוב את שימך">
+
+            <label for="codeGame" class="textwith">קוד משחק</label>
             <input type="number" class="form-control" id="codeGame" placeholder="כתוב קוד משחק">
             <button type="button" id="start" class="btn btn-primary btn-lg btn-block">כניסה</button>
         </div>
@@ -44,6 +50,10 @@
                 <button type="button" id="Q3" class="btn btn-primary  col"></button>
                 <button type="button" id="Q2" class="btn btn-primary  col"></button>
             </div>
+        </div>
+        <div id="TheEnd">
+            <h1 id="myName"></h1>
+            <p id="Masov"></p>
         </div>
     </div>
 </body>

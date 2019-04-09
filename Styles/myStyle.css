@@ -1,4 +1,10 @@
-﻿body {
+﻿html {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(../images/bac-02.png);
+    background-size: 100%;
 }
 
 label {
@@ -18,8 +24,34 @@ label {
 #Q2 {
     display: inline-block;
     float: left;
-    
 }
-.myNext{
+
+.myNext {
+    width: 100%;
+}
+
+#myLogo {
+    display: block;
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20%;
+}
+.textwith{
+    color:white;
+}
+#myCode{
+    margin-top:40%;
+}
+#myName,#Masov{
+   text-align:right;
+   margin-right:5%;
+   margin-left:5%;
+}
+#myName{
+    margin-top:10%;
+}
+#QutisionBut{
     width:100%;
 }

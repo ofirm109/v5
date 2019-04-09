@@ -3,11 +3,16 @@ var EndPageNum = 0;
 var mytochenNum = 0;
 var myCodeGame = 0;
 var thisgame = [];
+var myName = "";
+var Alldiscripsion = [];
+var myDiscripsion = [];
+var countDiscripsion = 0;
 
 $(document).ready(function () {
     $("#myCode").hide();
     $("#pageOrgin").hide();
     $("#QuizPage").hide();
+    $("#TheEnd").hide();
     //מסך פתיחה
     $("#student").click(function () {
         $("#navOp").fadeOut(500);
@@ -35,6 +40,7 @@ $(document).ready(function () {
                         var q1 = [];
                         var q2 = [];
                         var q3 = [];
+                        Alldiscripsion[z] = json.allApp.games.game[i].page[z].discripsion;
                         ThisPage[0] = json.allApp.games.game[i].page[z]._id;
                         ThisPage[1] = json.allApp.games.game[i].page[z]._quiz;
                         ThisPage[2] = json.allApp.games.game[i].page[z].tochen._tape;
@@ -61,8 +67,13 @@ $(document).ready(function () {
                         thisgame[z] = ThisPage;
 
                         if (z == (NumPage - 1)) {
-                            //תחילת המשחק
-                            StartGame();
+                            myName = $("#NameStudent").val();
+                            if (myName == "") {
+                                alert("רשום את שימך")
+                            } else {
+                                //תחילת המשחק
+                                StartGame();
+                            }
                         }
                     }
 
@@ -124,15 +135,18 @@ function nextPage(num) {
                 width: '100%'
             });
             img.appendTo($('#imagepage'));
+            dis(num);
             num++;
             myPageNum = num;
+            
+
         }
     }
 }
 //לשאלה
 function Myquize(num) {
     myPageNum = num;
-
+    dis(num);
     $("#QutisionBut").click(function () {
         $("#pageOrgin").fadeOut(500);
         if (myPageNum >= EndPageNum) {
@@ -195,5 +209,25 @@ function mavar() {
 
 //סוף
 function End() {
-    alert("סוף");
+    $('body').css('background-image', 'url("/images/bac3.png")');
+    var time = setInterval(function () {
+        $("#TheEnd").fadeIn(500);
+        clearInterval(time)
+    }, 500);
+    $("#myName").html(myName);
+    var myMasovEnd = "";
+    for (i = 0; i < myDiscripsion.length; i++) {
+        if (myDiscripsion[i] != "") {
+            myMasovEnd += myDiscripsion[i] + "<br/>";
+        }
+    }
+
+    $("#Masov").html(myMasovEnd);
+
+}
+//תיאור
+function dis(numDis) {
+    numDis--;
+    myDiscripsion[countDiscripsion] = Alldiscripsion[numDis];
+    countDiscripsion++;
 }
