@@ -209,11 +209,12 @@ function mavar() {
 
 //סוף
 function End() {
-    $('body').css('background-image', 'url("/images/bac3.png")');
+    $('body').css('background-image', 'url("images/bac3.png")');
     var time = setInterval(function () {
         $("#TheEnd").fadeIn(500);
         clearInterval(time)
     }, 500);
+    var fuulName = "היי "+myName+" ,"
     $("#myName").html(myName);
     var myMasovEnd = "";
     for (i = 0; i < myDiscripsion.length; i++) {
