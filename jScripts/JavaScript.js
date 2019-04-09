@@ -215,7 +215,7 @@ function End() {
         clearInterval(time)
     }, 500);
     var fuulName = "היי "+myName+" ,"
-    $("#myName").html(myName);
+    $("#myName").html(fuulName);
     var myMasovEnd = "";
     for (i = 0; i < myDiscripsion.length; i++) {
         if (myDiscripsion[i] != "") {
