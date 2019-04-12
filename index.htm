@@ -22,36 +22,41 @@
         <!--מסך פתיחה-->
         <div id="navOp">
             <img id="myLogo" src="images/logo.png" />
-            <button type="button" id="student" class="btn btn-primary btn-lg btn-block">כניסה לתלמיד</button>
-            <button type="button" id="techer" class="btn btn-secondary btn-lg btn-block">כניסה למורה</button>
+            <button type="button" id="student" class="btn btn-primary btn-lg opBut">כניסה לתלמיד</button>
+            <button type="button" id="techer" class="btn btn-secondary btn-lg opBut">כניסה למורה</button>
         </div>
         <!--הקוד-->
-        <div id="myCode">
-            
+        <div id="myCode" class="opBut">
+
 
             <label for="NameStudent" class="textwith">כתוב את שמך</label>
             <input type="text" class="form-control" id="NameStudent" placeholder="כתוב את שימך">
 
             <label for="codeGame" class="textwith">קוד משחק</label>
             <input type="number" class="form-control" id="codeGame" placeholder="כתוב קוד משחק">
-            <button type="button" id="start" class="btn btn-primary btn-lg btn-block">כניסה</button>
+            <button type="button" id="start" class="btn btn-primary btn-lg secendBut">כניסה</button>
         </div>
         <!--המחולל-->
         <!--הדפים-->
-        <div id="pageOrgin"  >
+        <div id="pageOrgin">
             <div id="imagepage" class="row"></div>
-            <button type="button" id="QutisionBut"  class="btn btn-primary btn-lg btn-block myNext">המשך</button>
+            
+                <a href="#" type="button" id="QutisionBut" class="btn btn-primary btn-lg opBut">המשך</a>
+            
         </div>
         <!--השאלה-->
-        <div id="QuizPage" >
+        <div id="QuizPage">
             <div class="row" id="imageQuiz"></div>
             <div class="row">
-                <button type="button" id="Q1" class="btn btn-primary  col"></button>
-                <button type="button" id="Q3" class="btn btn-primary  col"></button>
-                <button type="button" id="Q2" class="btn btn-primary  col"></button>
+
+                <a href="#" type="button" id="Q1" class="btn btn-primary  col"></a>
+                <a href="#" type="button" id="Q3" class="btn btn-primary  col"></a>
+                <a href="#" type="button" id="Q2" class="btn btn-primary  col"></a>
+
             </div>
         </div>
         <div id="TheEnd">
+            <img src="images/bac3.png" width="100%" height="100%" />
             <h1 id="myName"></h1>
             <p id="Masov"></p>
         </div>

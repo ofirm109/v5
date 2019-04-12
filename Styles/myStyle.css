@@ -3,10 +3,22 @@
 }
 
 body {
-    background-image: url(../images/bac-02.png);
+    /*background-image: url(../images/bac-02.png);*/
+    background-color: #8E69FF;
     background-size: 100%;
 }
 
+.opBut {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    width:70%;
+}
+.secendBut{
+    margin-top:10%;
+    width:100%;
+}
 label {
     direction: rtl;
     display: block;
@@ -36,22 +48,27 @@ label {
     height: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-top:20%;
+    margin-top: 10%;
 }
-.textwith{
-    color:white;
+
+.textwith {
+    color: white;
 }
-#myCode{
-    margin-top:40%;
+
+#myCode {
+    margin-top: 20%;
 }
-#myName,#Masov{
-   text-align:right;
-   margin-right:5%;
-   margin-left:5%;
+
+#myName, #Masov {
+    text-align: right;
+    margin-right: 5%;
+    margin-left: 5%;
 }
-#myName{
-    margin-top:10%;
+
+#myName {
+    margin-top: 10%;
 }
-#QutisionBut{
-    width:100%;
+
+#QutisionBut {
+    width: 100%;
 }

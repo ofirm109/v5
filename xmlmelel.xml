@@ -89,6 +89,22 @@
         <tochen tape="img" >story12.png</tochen>
         <discripsion>מאי סיפרה לרונה וגילי שהיא מעוניינת לשלוח לאורן תמונה שלה.</discripsion>
       </page>
+      <page id="13" quiz="false" >
+        <tochen tape="img" >story13.png</tochen>
+        <discripsion>רונה אומרת למאי לשלוח את התמונה</discripsion>
+      </page>
+      <page id="14" quiz="false" >
+        <tochen tape="img" >story14.png</tochen>
+        <discripsion>גילי אומרת למאי שלא כדי לשלוח את התונה מכיוון שהיא לא בטוחה לאיפה התמונה תגיע</discripsion>
+      </page>
+      <page id="15" quiz="false" >
+        <tochen tape="img" >story15.png</tochen>
+        <discripsion> </discripsion>
+      </page>
+      <page id="16" quiz="false" >
+        <tochen tape="img" >story16.png</tochen>
+        <discripsion> </discripsion>
+      </page>
 
     </game>
   </games>

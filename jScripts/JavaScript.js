@@ -209,7 +209,7 @@ function mavar() {
 
 //סוף
 function End() {
-    $('body').css('background-image', 'url("images/bac3.png")');
+    $('body').css('background-color', '#FFF6E6');
     var time = setInterval(function () {
         $("#TheEnd").fadeIn(500);
         clearInterval(time)
