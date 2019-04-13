@@ -106,6 +106,34 @@
         <discripsion> </discripsion>
       </page>
 
+      <page id="17" quiz="true" >
+        <tochen tape="img" >story17.png</tochen>
+        <myseala linke="18" tayp="text">לא לשלוח</myseala>
+        <myseala linke="20" tayp="text">לשלוח</myseala>
+        <discripsion>מאי רוצה שאורן יחשוב שהיא רצינית, אבל היא לא רוצה שהתמונה שלה תופץ ברשת</discripsion>
+      </page>
+
+      <page id="18" quiz="false" >
+        <tochen tape="img" >story18.png</tochen>
+        <discripsion>מאי ואורן חברים למרות שמאי לא שלחה את התמונה</discripsion>
+      </page>
+      <page id="19" quiz="false" >
+        <tochen tape="img" >story19.png</tochen>
+        <discripsion>מה היה קורה אם מאי הייתה שלוחת את התמונה</discripsion>
+      </page>
+      <page id="20" quiz="false" >
+        <tochen tape="img" >story20.png</tochen>
+        <discripsion>בנתיים בבית של אורן</discripsion>
+      </page>
+      <page id="21" quiz="false" >
+        <tochen tape="img" >story21.png</tochen>
+        <discripsion>בנתיים בבית של אורן</discripsion>
+      </page>
+      <page id="22" quiz="false" >
+        <tochen tape="img" >story22.png</tochen>
+        <discripsion> </discripsion>
+      </page>
+
     </game>
   </games>
 </allApp>

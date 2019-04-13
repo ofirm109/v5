@@ -231,6 +231,72 @@
 							"discripsion": "",
 							"_id": "16",
 							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story17.png"
+							},
+							"myseala": [
+								{
+									"_linke": "18",
+									"_tayp": "text",
+									"__text": "לא לשלוח"
+								},
+								{
+									"_linke": "20",
+									"_tayp": "text",
+									"__text": "לשלוח"
+								}
+							],
+							"discripsion": "מאי רוצה שאורן יחשוב שהיא רצינית, אבל היא לא רוצה שהתמונה שלה תופץ ברשת",
+							"_id": "17",
+							"_quiz": "true"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story18.png"
+							},
+							"discripsion": "מאי ואורן חברים למרות שמאי לא שלחה את התמונה",
+							"_id": "18",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story19.png"
+							},
+							"discripsion": "מה היה קורה אם מאי הייתה שלוחת את התמונה",
+							"_id": "19",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story20.png"
+							},
+							"discripsion": "בנתיים בבית של אורן",
+							"_id": "20",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story21.png"
+							},
+							"discripsion": "בנתיים בבית של אורן",
+							"_id": "21",
+							"_quiz": "false"
+						},
+						{
+							"tochen": {
+								"_tape": "img",
+								"__text": "story22.png"
+							},
+							"discripsion": "",
+							"_id": "22",
+							"_quiz": "false"
 						}
 					],
 					"_id": "2",
