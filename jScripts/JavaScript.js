@@ -138,7 +138,7 @@ function nextPage(num) {
             });
             img.appendTo($('#imagepage'));
             if (disNum < num) {
-                alert(disNum + "disNum");
+                
                 disNum = num;
                 dis(num, false);
             }
@@ -152,7 +152,7 @@ function nextPage(num) {
 function Myquize(num) {
     myPageNum = num;
     if (disNum < num) {
-        alert(disNum + "disNum");
+        
         disNum = num;
         dis(num, true);
     }
