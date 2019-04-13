@@ -135,7 +135,7 @@ function nextPage(num) {
                 width: '100%'
             });
             img.appendTo($('#imagepage'));
-            dis(num);
+            dis(num,false);
             num++;
             myPageNum = num;
             
@@ -146,7 +146,7 @@ function nextPage(num) {
 //לשאלה
 function Myquize(num) {
     myPageNum = num;
-    dis(num);
+    dis(num,true);
     $("#QutisionBut").click(function () {
         $("#pageOrgin").fadeOut(500);
         if (myPageNum >= EndPageNum) {
@@ -218,17 +218,42 @@ function End() {
     $("#myName").html(fuulName);
     var myMasovEnd = "";
     for (i = 0; i < myDiscripsion.length; i++) {
-        if (myDiscripsion[i] != "") {
-            myMasovEnd += myDiscripsion[i] + "<br/>";
+        if (myDiscripsion[i][0] != "") {
+            myMasovEnd += myDiscripsion[i][0] + "@";
         }
-    }
+        if (myDiscripsion[i][1] == true) {
+            myMasovEnd += "@";
+        }
 
-    $("#Masov").html(myMasovEnd);
+    }
+    typeWriter(myMasovEnd);
+    //$("#Masov").html(myMasovEnd);
 
 }
 //תיאור
-function dis(numDis) {
+function dis(numDis, sela) {
     numDis--;
-    myDiscripsion[countDiscripsion] = Alldiscripsion[numDis];
+    var disZmani = [];
+    disZmani[0] = Alldiscripsion[numDis];
+    disZmani[1] = sela;
+    myDiscripsion[countDiscripsion] = disZmani
     countDiscripsion++;
+}
+
+var Tik = 0;
+var speed = 150;
+var myTxt = "";
+function typeWriter(txt) {
+    myTxt += txt;
+    if (Tik < myTxt.length) {
+        if (myTxt.charAt(Tik) == "@") {
+            var bdika = document.getElementById("Masov").innerHTML;
+            $("#Masov").html(bdika + "<br/>");
+            Tik++;
+        } else {
+            document.getElementById("Masov").innerHTML += myTxt.charAt(Tik);
+            Tik++;
+        }
+        setTimeout(typeWriter, speed);
+    }
 }
