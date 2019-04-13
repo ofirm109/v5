@@ -226,7 +226,8 @@ function End() {
         }
 
     }
-    typeWriter(myMasovEnd);
+    myTxt = myMasovEnd;
+    typeWriter();
     //$("#Masov").html(myMasovEnd);
 
 }
@@ -243,8 +244,8 @@ function dis(numDis, sela) {
 var Tik = 0;
 var speed = 150;
 var myTxt = "";
-function typeWriter(txt) {
-    myTxt = txt;
+function typeWriter() {
+    
     if (Tik < myTxt.length) {
         if (myTxt.charAt(Tik) == "@") {
             var bdika = document.getElementById("Masov").innerHTML;
