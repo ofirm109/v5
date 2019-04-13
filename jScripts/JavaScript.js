@@ -7,6 +7,7 @@ var myName = "";
 var Alldiscripsion = [];
 var myDiscripsion = [];
 var countDiscripsion = 0;
+var disNum = 0;
 
 $(document).ready(function () {
     $("#myCode").hide();
@@ -110,7 +111,7 @@ function StartGame() {
 }
 //דף הבא
 function nextPage(num) {
-
+    
     var time = setInterval(function () {
         $("#pageOrgin").fadeIn(500);
         clearInterval(time)
@@ -124,6 +125,7 @@ function nextPage(num) {
             Shela = true;
             if (myPageNum >= EndPageNum) {
                 End();
+                myPageNum = num;
             } else {
                 Myquize(num)
             }
@@ -135,10 +137,13 @@ function nextPage(num) {
                 width: '100%'
             });
             img.appendTo($('#imagepage'));
-            dis(num,false);
+            if (disNum < num) {
+                alert(disNum + "disNum");
+                disNum = num;
+                dis(num, false);
+            }
             num++;
             myPageNum = num;
-            
 
         }
     }
@@ -146,7 +151,11 @@ function nextPage(num) {
 //לשאלה
 function Myquize(num) {
     myPageNum = num;
-    dis(num,true);
+    if (disNum < num) {
+        alert(disNum + "disNum");
+        disNum = num;
+        dis(num, true);
+    }
     $("#QutisionBut").click(function () {
         $("#pageOrgin").fadeOut(500);
         if (myPageNum >= EndPageNum) {

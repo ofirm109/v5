@@ -12,13 +12,21 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
- 
-    width:70%;
+    margin-top: 5%;
+    width: 70%;
 }
-.secendBut{
-    margin-top:10%;
-    width:100%;
+.opBut2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
+
+.secendBut {
+    margin-top: 10%;
+    width: 100%;
+}
+
 label {
     direction: rtl;
     display: block;
@@ -71,4 +79,7 @@ label {
 
 #QutisionBut {
     width: 100%;
+}
+.greenNo,greenNo:hover{
+    background-color:green;
 }

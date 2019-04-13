@@ -127,11 +127,11 @@
       </page>
       <page id="21" quiz="false" >
         <tochen tape="img" >story21.png</tochen>
-        <discripsion>בנתיים בבית של אורן</discripsion>
+        <discripsion> </discripsion>
       </page>
       <page id="22" quiz="false" >
         <tochen tape="img" >story22.png</tochen>
-        <discripsion> </discripsion>
+        <discripsion>ההמשך יבוא</discripsion>
       </page>
 
     </game>
